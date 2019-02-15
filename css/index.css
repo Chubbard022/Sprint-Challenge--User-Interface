@@ -229,15 +229,17 @@ div.top-body{
     flex-wrap: wrap;
     justify-content: start;
     align-items: stretch;
+    border-bottom: 1px dashed black;
 }
 div.top-body-item{
 margin-bottom: 20px;
 /* border: 2px solid red; */
 
-
+}
+div.top-body-item div.top-body-item-img{
+    width:100%;
 }
 div.top-body-item div.top-p{
-    border-bottom: 1px dashed black;
     box-sizing: border-box;
 }
 /*------------index page box items--------------------- */
